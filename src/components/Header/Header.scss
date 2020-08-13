@@ -1,0 +1,33 @@
+header {
+  height: 80px;
+  //   background-color: aqua;
+  padding: 0 100px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "OswaldM";
+  overflow: hidden;
+
+  .menu {
+    display: flex;
+    margin-left: 40px;
+
+    p {
+      margin-right: 40px;
+      text-transform: uppercase;
+    }
+  }
+
+  .icons {
+    display: flex;
+
+    .icon {
+      width: 25px;
+      height: 25px;
+      border-radius: 100%;
+      background-color: purple;
+      margin: 0 10px;
+    }
+  }
+}
