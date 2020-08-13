@@ -10,7 +10,21 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="container">
-        <div className="left-section"></div>
+        <div className="left-section">
+          <p className="title">Men's shoe</p>
+          <p className="name">Nike Air Edge 270</p>
+          <p className="description">
+            Nisi id consequat in enim pariatur sint pariatur reprehenderit eu
+            eiusmod cupidatat.
+          </p>
+          <div className="row">
+            <div className="play-button"></div>
+            <p className="title">play video</p>
+          </div>
+          <div className="scroll-down-container">
+            <p className="scroll-text">Scroll down</p>
+          </div>
+        </div>
         <div className="image-container">
           <img src={Image} className="image" />
         </div>
