@@ -17,7 +17,45 @@
     .right-section {
       width: 30%;
       height: 100%;
-      background-color: aqua;
+      //   background-color: aqua;
+      padding-top: 80px;
+
+      .title {
+        font-family: "OswaldM";
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        margin: 20px 0;
+      }
+
+      .sizes {
+        display: flex;
+
+        .size {
+          width: 30px;
+          height: 30px;
+          border-radius: 2px;
+          border: 1px solid #121212;
+          display: grid;
+          place-items: center;
+          margin: 0px 12px 12px 0;
+
+          p {
+            font-family: "OswaldM";
+            font-size: 0.6rem;
+          }
+        }
+      }
+
+      .colors {
+        display: flex;
+
+        .color {
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          margin-right: 15px;
+        }
+      }
     }
 
     .image-container {
