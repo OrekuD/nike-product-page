@@ -13,7 +13,6 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      //   background-color: yellow;
       padding-top: 80px;
 
       .name {
@@ -26,6 +25,9 @@
 
       .description {
         color: #7e7e7e;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 0.8rem;
       }
 
       .row {

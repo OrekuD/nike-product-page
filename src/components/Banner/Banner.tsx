@@ -22,8 +22,8 @@ const Banner = () => {
           <p className="title"> Men's shoe</p>
           <p className="name">Nike Air Edge 270</p>
           <p className="description">
-            Nisi id consequat in enim pariatur sint pariatur reprehenderit eu
-            eiusmod cupidatat.
+            The Nike Air Edge 270 takes the look of retro basketball and puts it
+            through a modern lens.
           </p>
           <div className="row">
             <div className="play-button">
