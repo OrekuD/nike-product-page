@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Nike } from "../../svg/Svgs";
+import { Nike, User, ShoppingBag } from "../../svg/Svgs";
 
 const menuItems = ["New releases", "Men", "Women", "Kids", "Customize"];
 
@@ -14,8 +14,12 @@ const Header = () => {
         ))}
       </div>
       <div className="icons">
-        <div className="icon" />
-        <div className="icon" />
+        <div className="icon">
+          <User size="20px" color="#000000" />
+        </div>
+        <div className="icon">
+          <ShoppingBag size="20px" color="#000000" />
+        </div>
       </div>
     </header>
   );
