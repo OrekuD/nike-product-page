@@ -62,14 +62,14 @@ const Banner = () => {
           </div>
           <div className="icons">
             <div>
-              <div className="icon">
+              <div className="icon" style={{ marginLeft: 3 }}>
                 <Instagram size="15px" color="#000" />
               </div>
               <div className="icon">
-                <Twitter size="15px" color="#000" />
+                <Twitter size="20px" color="#000" />
               </div>
               <div className="icon">
-                <Facebook size="15px" color="#000" />
+                <Facebook size="20px" color="#000" />
               </div>
             </div>
           </div>
