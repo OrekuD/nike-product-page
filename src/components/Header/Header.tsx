@@ -19,6 +19,9 @@ const Header = () => {
         </div>
         <div className="icon">
           <ShoppingBag size="20px" color="#000000" />
+          <div className="badge">
+            <p>2</p>
+          </div>
         </div>
       </div>
     </header>
